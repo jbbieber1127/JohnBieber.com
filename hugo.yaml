@@ -1,0 +1,28 @@
+baseURL: https://johnbieber.com/
+languageCode: en-us
+title: JohnBieber.com
+module:
+   hugoVersion:
+    extended: true
+    min: "0.112.0"
+   mounts:
+    - source: assets
+      target: assets
+    - source: hugo_stats.json
+      target: assets/watching/hugo_stats.json
+params:
+  contact:
+    email: contact@johnbieber.com
+build:
+  writeStats: true
+  cachebusters:
+  - source: layouts/.*
+    target: css
+  - source: assets/watching/hugo_stats\.json
+    target: styles\.css
+  - source: (postcss|tailwind)\.config\.js
+    target: css
+  - source: assets/.*\.(js|ts|jsx|tsx)
+    target: js
+  - source: assets/.*\.(.*)$
+    target: $1
