@@ -2,7 +2,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="John Bieber">
-    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <title>{{ .Title }} - {{ .Site.Title }} {{ if .Description }} // {{ end }} {{ .Description }}</title>
     {{ with resources.Get "css/styles.css" }}
       {{ $opts := dict
         "inlineImports" true
