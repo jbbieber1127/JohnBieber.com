@@ -34,3 +34,15 @@ build:
     target: js
   - source: assets/.*\.(.*)$
     target: $1
+outputs:
+  home:
+  - html
+  section:
+  - html
+  - rss
+  taxonomy:
+  - html
+  term:
+  - html
+taxonomies:
+  tag: tags

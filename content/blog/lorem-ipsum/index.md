@@ -6,6 +6,9 @@ tags:
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum magna eu ornare luctus
 image: vowels_learning.jpg
 showTOC: true
+tags:
+  - lorem
+  - ipsum
 ---
 ### Lorem
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum magna eu ornare luctus. Morbi in hendrerit lacus, ut malesuada ligula. Vivamus id rhoncus nibh, eget tempus felis. Morbi vel eros a nibh viverra mollis . Donec euismod vehicula nulla quis luctus. Nullam non cursus est. Quisque eu nibh in est lacinia blandit. Cras feugiat et mi at iaculis. Aliquam sagittis sapien ac purus vestibulum, vel porttitor dolor aliquam. Suspendisse consequat metus at risus varius, faucibus ultrices erat accumsan.
