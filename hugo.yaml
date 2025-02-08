@@ -1,6 +1,14 @@
 baseURL: https://johnbieber.com/
 languageCode: en-us
 title: JohnBieber.com
+markup:
+  highlight:
+    style: dracula
+  defaultMarkdownHandler: goldmark
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
 module:
    hugoVersion:
     extended: true

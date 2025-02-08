@@ -5,14 +5,15 @@ draft: true
 tags:
 description: Demonstration of syntax highlighting with Hugo
 image:
+showTOC: true
 ---
 This is a shell command
-```shell
+```shell {title="shell"}
 npm install
 ```
 
 This is some HTML
-```html
+```html {title="./index.html"}
 <div class="main">
 </div>
 ```
