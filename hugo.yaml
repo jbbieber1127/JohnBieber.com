@@ -46,3 +46,4 @@ outputs:
   - html
 taxonomies:
   tag: tags
+enableRobotsTXT: true
