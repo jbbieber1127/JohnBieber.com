@@ -2,7 +2,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="John Bieber">
-    <meta name="description" content="{{ .Description | default "Personsal website of John Bieber" }}">
+    <meta name="description" content="{{ .Description | default "Personal website of John Bieber" }}">
     <title>{{ .Title }} - {{ .Site.Title }} {{ if .Description }} // {{ end }} {{ .Description }}</title>
     {{ with resources.Get "css/styles.css" }}
       {{ $opts := dict
