@@ -7,7 +7,7 @@
     "hugo": "hugo",
     "hugo:build": "hugo --minify && pagefind --site public",
     "pagefind": "pagefind --site public --output-subdir ../static/pagefind",
-    "rebuild": "del -rf public && npm run hugo && npm run pagefind"
+    "rebuild": "cmd /C rmdir /s /q public && npm run hugo && npm run pagefind"
   },
   "keywords": [],
   "author": "",
