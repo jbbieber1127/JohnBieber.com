@@ -5,7 +5,9 @@
   "scripts": {
     "start": "hugo server --buildDrafts --cleanDestinationDir",
     "hugo": "hugo",
-    "hugo:build": "hugo --minify"
+    "hugo:build": "hugo --minify && pagefind --site public",
+    "pagefind": "pagefind --site public --output-subdir ../static/pagefind",
+    "rebuild": "del -rf public && npm run hugo && npm run pagefind"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,8 @@
     "@tailwindcss/typography": "github:tailwindcss/typography",
     "@tailwindcss/vite": "^4.0.3",
     "hugo-bin": "^0.140.1",
+    "micromodal": "^0.4.10",
+    "pagefind": "^1.3.0",
     "tailwindcss": "^4.0.3"
   }
 }
