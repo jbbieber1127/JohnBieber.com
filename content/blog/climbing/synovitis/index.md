@@ -1,7 +1,7 @@
 ---
 title: 'Synovitis'
 date: 2025-02-08T19:35:39-05:00
-draft: false
+draft: true
 tags:
 description:
 image:
@@ -26,7 +26,7 @@ Synovitis is an overuse injury. One could reasonably conclude that I have been o
 - Firstly, from June to July I dealt with A2 pulley soreness on my right middle finger. So, giving myself some credit, I am perfectly capable of overusing the fingers of my right hand as well.
 - That said, since my _MFLH_ has become sore, some time at the end of 2023, it has never fully been pain-free. So in terms of overuse, my _MFLH_ seems to take more abuse.
 
-### What I think are some contributing factors:
+### What I think are some contributing factors: {#Contributing-Factors}
   
   1. The last time I took rest from climbing was in September of 2023. I was out for the obligatory 10 days with COVID. Since then, the most I've rested between climbing days was 2 days. And that was maybe one time. My typical climbing schedule is 4 days a week: Tuesday night (bouldering), Thursday night (bouldering), Saturday (bouldering), Sunday (Lead climbing). Every other week, I had one day of non-climbing between climbing days. The most restful week I had was in July, when I climbed 5 days in a week, but 3 of those days were easy climbing (~5.8 Lead/TR).
   2. My _typical_ schedule is written above, but some of those days involved leading at Farley, then hitting the gym for a bouldering session. Or bouldering outside somewhere, then hitting the gym for... more bouldering. Or bouldering in the gym, then lead climbing because I still had energy and it's fun as hell. You get the picture.

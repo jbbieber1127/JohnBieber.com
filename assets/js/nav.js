@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			const id = entry.target.getAttribute('id');
 
 			if (entry.intersectionRatio > 0) {
-        document.querySelectorAll(`#TableOfContents li a`)?.forEach((section) => section.classList.remove('text-accent-500', 'font-medium'));
+                document.querySelectorAll(`#TableOfContents li a`)?.forEach((section) => section.classList.remove('text-accent-500', 'font-medium'));
 				document.querySelector(`#TableOfContents li a[href="#${id}"]`)?.classList.add('text-accent-500', 'font-medium');
 			}
 		});
